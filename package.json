@@ -1,0 +1,17 @@
+{
+  "name": "save_as_you_type",
+  "version": "1.0.0",
+  "description": "simple project",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "YuCheng Chien",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.2",
+    "jsdom": "^9.8.3",
+    "mongoose": "^4.6.8"
+  }
+}

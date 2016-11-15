@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+ 
+  
+  
+   
+    <form action="/" method="POST">
+        Type some texts here:<br>
+        <textarea id="myTextarea" name="text">
+        asfasdhfiashuvhasuisaf
+        </textarea>
+        <button>Saved</button>
+    </form>
+    
+    <script>
+        var timer = null
+        var textArea = document.getElementById('myTextarea');
+        textArea.addEventListener('keydown', function(){
+            clearTimeout(timer);
+            timer = setTimeout(function() {
+                console.log("waited, save submitted")   
+            }, 1000)
+        }, false);
+        
+    </script>
+</body>
+</html>
